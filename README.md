@@ -8,14 +8,14 @@ Below are the assignment details.
 
 Turing Machine Simulator
 
-The Problem
+The Problem:
 
 Given a description of a Turing Machine and a string, simulate the string running on the Turing
 Machine for a given number of steps. At the end of the simulation, you are to determine if the
 machine accepted the string, rejected the string, or did not halt in the required number of steps.
 
 
-Input Format (standard input)
+Input Format (standard input):
 
 The first line of the input file will contain a single positive integer, n (n < 100), representing the
 number of Turing Machines that are going to be described in the file.
@@ -51,7 +51,7 @@ of steps to run each simulation. The following n lines will contain the strings 
 per line. These strings will be comprised solely of the characters ‘a’ and ‘b’.
 
 
-Output Format (standard out)
+Output Format (standard out):
 
 
 For each test case, output a header as follows: Machine #k: where k represents the grammar
@@ -63,57 +63,105 @@ Output these lines in the order in which the strings were given in the input fil
 output for each case with a blank line.
 
 
-Sample Input
+Sample Input:
+
 2
+
 5 9
+
 0 B 2 B R
+
 0 a 3 a R
+
 0 b 4 b R
+
 3 a 1 a R
+
 3 b 1 b R
+
 3 B 1 B R
+
 4 a 2 a R
+
 4 b 2 b R
+
 4 B 2 B R
+
 3 10
+
 aaab
+
 ba
+
 b
+
 7 20
+
 0 B 2 B R
+
 0 # 2 # R
+
 0 a 3 B R
+
 0 b 2 b R
+
 3 # 3 # R
+
 3 B 1 B R
+
 3 a 4 # R
+
 3 b 2 b R
+
 4 # 4 # R
+
 4 a 5 a R
+
 4 B 6 B L
+
 4 b 2 b R
+
 5 # 5 # R
+
 5 a 4 # R
+
 5 B 2 B R
+
 5 b 2 b R
+
 6 a 6 a L
+
 6 # 6 # L
+
 6 B 3 B R
+
 6 b 2 b R
+
 3 10
+
 a
+
 aa
+
 aaaaaaaa
 
 
-Sample Output
+
+Sample Output:
 
 Machine #1:
+
 aaab: YES
+
 ba: NO
+
 b: NO
 
+
 Machine #2:
+
 a: YES
+
 aa: YES
+
 aaaaaaaa: DOES NOT HALT IN 10 STEPS

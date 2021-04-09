@@ -3,7 +3,8 @@
 This is a turing machine simulator written in Java for a Theory of Computation programming assignment. 
 Below are the assignment details.
 
-####################################################################################################
+########################################################################################
+
 
 Turing Machine Simulator
 
